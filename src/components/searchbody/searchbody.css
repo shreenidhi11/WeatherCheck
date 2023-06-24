@@ -1,0 +1,146 @@
+.searchbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+
+}
+
+.search__place__sky{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(154, 149, 143);
+    gap: 0.5rem;
+    text-align: center;
+    width: 50vh;
+    padding: 5px;
+    /* margin-left: 45rem; */
+    /* margin-top: 5px; */
+    border-radius: 10px;
+
+}
+
+.search__place__sky > p{
+    font-size: 1.5rem;
+}
+
+.search__place__details{
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    /* margin-left: 45rem; */
+    width: 50vh;
+    padding :5px;
+    border-radius: 10px;
+}
+
+.search__place__details > p{
+    font-size: 1.5rem;
+    text-align:center;
+}
+
+
+/* display size 667 or min */
+@media screen and (max-height:867px) and (max-width:575px){
+
+    .searchbody{
+        display: flex;
+        flex-direction: column;
+        background-color: #d5def5;
+        height: 100vh;
+        justify-items: center;
+        align-items: center;
+        margin:0;
+        color: white;
+
+    }
+
+    .search__place__sky{
+        display: flex;
+        flex-direction: column;
+        background-color: #8594e4;
+        text-align: center;
+        padding: 5px;
+        border-radius: 10px;
+    
+    }
+    
+    .search__place__sky > p{
+        font-size: 1rem;
+    }
+
+    .search__place__sky > h1{
+        font-size: 1.5rem;
+    }
+
+
+    .search__place__details > p{
+        font-size: 1rem;
+        text-align:center;
+    }
+    
+
+    .search__place__details{
+        display: flex;
+        flex-direction: column;
+        background-color:#8594e4;
+        /* margin-top:5vh; */
+        /* margin-left: 1vh; */
+        padding :5px;
+        border-radius: 10px;
+    }
+
+
+
+}
+
+
+/* display size 1200 or more */
+@media screen and (min-width:1200px){
+
+    .searchbody{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+    
+    }
+    
+    .search__place__sky{
+
+        display: flex;
+        flex-direction: column;
+        background-color: #8594e4;
+        gap: 0.5rem;
+        text-align: center;
+
+        border-radius: 10px;
+        /* margin-top: 50px; */
+     
+    }
+
+    .search__place__details{
+        display: flex;
+        flex-direction: column;
+        background-color: #8594e4;
+        /* margin-left: 0.5vh; */
+        /* width: 50vh; */
+        padding :5px;
+        /* border-radius: 10px; */
+    }
+    
+    .search__place__details > p{
+        font-size: 1.5rem;
+        text-align:center;
+    }
+
+    .search__place__sky > p{
+        font-size: 1.5rem;
+    }
+    
+
+}
