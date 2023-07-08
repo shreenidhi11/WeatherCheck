@@ -1,0 +1,154 @@
+.searchbody{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.search__place__sky{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(154, 149, 143);
+    /* gap: 0.5rem; */
+    text-align: center;
+    /* width: 50vh; */
+    /* padding: 5px; */
+    width: 100%;
+    /* margin-left: 45rem; */
+    /* margin-top: 5px; */
+    /* border-radius: 10px; */
+
+}
+
+.search__place__sky > p{
+    font-size: 1.5rem;
+}
+
+.search__place__details{
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    width: 100%;
+    /* margin-left: 45rem; */
+    /* width: 50vh; */
+    /* padding :5px;
+    border-radius: 10px; */
+}
+
+.search__place__details > p{
+    font-size: 1.5rem;
+    text-align:center;
+}
+
+
+/* display size 667 or min */
+@media screen and (max-width:411px){
+
+    .searchbody{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50%;
+        color: white;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .search__place__sky{
+        display: flex;
+
+        /* flex-direction: column; */
+        background-color: #8594e4;
+        text-align: center;
+        width: 90%;
+    
+    }
+
+    .search_location{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .search__place__sky > p{
+        font-size: 1rem;
+    }
+
+    .search__place__sky > h1{
+        font-size: 1.5rem;
+    }
+
+
+    .search__place__details > p{
+        font-size: 1rem;
+        text-align:center;
+    }
+    
+
+    .search__place__details{
+        display: flex;
+        flex-direction: column;
+        background-color:#8594e4;
+        /* padding :5px; */
+        /* border-radius: 10px; */
+        width: 90%;
+    }
+
+
+
+}
+
+
+/* display size 1200 or more */
+@media screen and (min-width:1200px){
+
+    .searchbody{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+    
+    }
+    
+    .search__place__sky{
+
+        display: flex;
+        flex-direction: column;
+        background-color: #8594e4;
+        gap: 0.5rem;
+        text-align: center;
+
+        border-radius: 10px;
+        /* margin-top: 50px; */
+     
+    }
+
+    .search__place__details{
+        display: flex;
+        flex-direction: column;
+        background-color: #8594e4;
+        /* margin-left: 0.5vh; */
+        /* width: 50vh; */
+        padding :5px;
+        /* border-radius: 10px; */
+    }
+    
+    .search__place__details > p{
+        font-size: 1.5rem;
+        text-align:center;
+    }
+
+    .search__place__sky > p{
+        font-size: 1.5rem;
+    }
+    
+}
